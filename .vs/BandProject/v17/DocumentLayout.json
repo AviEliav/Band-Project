@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|c:\\users\\aviel\\desktop\\software development\\course projects\\asp.net core project\\bandproject\\bandproject\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|solutionrelative:bandproject\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|c:\\users\\aviel\\desktop\\software development\\course projects\\asp.net core project\\bandproject\\bandproject\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|solutionrelative:bandproject\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|c:\\users\\aviel\\desktop\\software development\\course projects\\asp.net core project\\bandproject\\bandproject\\data\\bandprojectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|solutionrelative:bandproject\\data\\bandprojectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|c:\\users\\aviel\\desktop\\software development\\course projects\\asp.net core project\\bandproject\\bandproject\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|solutionrelative:bandproject\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|c:\\users\\aviel\\desktop\\software development\\course projects\\asp.net core project\\bandproject\\bandproject\\models\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|solutionrelative:bandproject\\models\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|c:\\users\\aviel\\desktop\\software development\\course projects\\asp.net core project\\bandproject\\bandproject\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED5B2C3-E318-44AA-B0BE-09F4C57EDE83}|BandProject\\BandProject.csproj|solutionrelative:bandproject\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Views\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BandProject\\Views\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Views\\_Layout.cshtml",
+              "RelativeToolTip": "BandProject\\Views\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T10:39:56.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\styles.css",
+              "RelativeDocumentMoniker": "BandProject\\wwwroot\\styles.css",
+              "ToolTip": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\styles.css",
+              "RelativeToolTip": "BandProject\\wwwroot\\styles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGABAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-21T10:38:53.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "BandProject\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "BandProject\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T12:49:27.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventItem.cs",
+              "DocumentMoniker": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Models\\EventItem.cs",
+              "RelativeDocumentMoniker": "BandProject\\Models\\EventItem.cs",
+              "ToolTip": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Models\\EventItem.cs",
+              "RelativeToolTip": "BandProject\\Models\\EventItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T17:10:58.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "BandProject\\Models\\Purchase.cs",
+              "ToolTip": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Models\\Purchase.cs",
+              "RelativeToolTip": "BandProject\\Models\\Purchase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T17:10:58.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BandProjectContext.cs",
+              "DocumentMoniker": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Data\\BandProjectContext.cs",
+              "RelativeDocumentMoniker": "BandProject\\Data\\BandProjectContext.cs",
+              "ToolTip": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\Data\\BandProjectContext.cs",
+              "RelativeToolTip": "BandProject\\Data\\BandProjectContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T17:10:58.977Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

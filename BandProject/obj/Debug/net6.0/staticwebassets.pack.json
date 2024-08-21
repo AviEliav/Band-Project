@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Fonts\\Booter - Zero Zero.woff",
+      "PackagePath": "staticwebassets\\Fonts\\Booter - Zero Zero.woff"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Fonts\\Booter - Zero Zero.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\Booter - Zero Zero.woff2"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Fonts\\desktop.ini",
+      "PackagePath": "staticwebassets\\Fonts\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Album 1.png",
+      "PackagePath": "staticwebassets\\Images\\Album 1.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Album 2.png",
+      "PackagePath": "staticwebassets\\Images\\Album 2.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Album 3.png",
+      "PackagePath": "staticwebassets\\Images\\Album 3.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Album 4.png",
+      "PackagePath": "staticwebassets\\Images\\Album 4.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Band Members.png",
+      "PackagePath": "staticwebassets\\Images\\Band Members.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Cofee.png",
+      "PackagePath": "staticwebassets\\Images\\Cofee.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Facebook Logo.png",
+      "PackagePath": "staticwebassets\\Images\\Facebook Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\GreenDay.jpg",
+      "PackagePath": "staticwebassets\\Images\\GreenDay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\GreenDayBanner.jpg",
+      "PackagePath": "staticwebassets\\Images\\GreenDayBanner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Header Background.jpg",
+      "PackagePath": "staticwebassets\\Images\\Header Background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Shirt.png",
+      "PackagePath": "staticwebassets\\Images\\Shirt.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Spotify Logo.png",
+      "PackagePath": "staticwebassets\\Images\\Spotify Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\Youtube Logo.png",
+      "PackagePath": "staticwebassets\\Images\\Youtube Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\Images\\desktop.ini",
+      "PackagePath": "staticwebassets\\Images\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\aviel\\Desktop\\SoftWare Development\\Course Projects\\Asp.Net Core Project\\BandProject\\BandProject\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BandProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BandProject.props",
+      "PackagePath": "build\\BandProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BandProject.props",
+      "PackagePath": "buildMultiTargeting\\BandProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BandProject.props",
+      "PackagePath": "buildTransitive\\BandProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

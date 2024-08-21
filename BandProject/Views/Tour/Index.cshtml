@@ -1,0 +1,58 @@
+﻿@using BandProject.Models;
+@model List<Tour>
+@{
+    List<EventItem> events = ViewBag.Events;
+}
+
+
+<header class="main-header">
+    <nav class="nav main-nav">
+        <ul>
+            <li><a asp-controller="Tour" asp-action="Index">HOME</a></li>
+            <li><a asp-controller="Store" asp-action="Index">STORE</a></li>
+            <li><a asp-controller="About" asp-action="Index">ABOUT</a></li>
+        </ul>
+    </nav>
+    <h1 class="band-name band-name-large">Green Day</h1>
+    <div class="container">
+        <button type="button" class="btn btn-header">Get our Latest Album</button>
+    </div>
+    <button type="button" class="btn btn-header btn-play">&#9658;</button>
+</header>
+
+
+<form method="post" asp-controller="Tour">
+    <section class="content-section container">
+        <h2 class="section-header">TOURS</h2>
+        <div>
+            @foreach (var item in Model)
+            {
+                <div class="tour-row">
+                    @{
+                        string eventDays = $"{(item.Date - DateTime.Now).Days.ToString()}";
+                    }
+                    @if (events.FirstOrDefault(e => e.Id == item.Id).Bought)
+                    {
+                        <span class="tour-item tour-date" data="Registered to the event: The event will be in @eventDays days">@item.Date.ToString("MMMM",new System.Globalization.CultureInfo("en-US")) @item.Date.Day </span>
+                    }
+                    else
+                    {
+                        <span class="tour-item tour-date" data="The event will be in @eventDays days">@item.Date.ToString("MMMM",new System.Globalization.CultureInfo("en-US")) @item.Date.Day </span>
+                    }
+                    <span class="tour-item tour-city">@item.City</span>
+                    <span class="tour-item tour-arena">@item.Arena</span>
+                    @if (events.FirstOrDefault(e => e.Id == item.Id).Bought)
+                    {
+                        <label>Bought</label>           
+                    }
+                    else
+                    {
+                        <button type="submit" class="tour-item tour-btn btn btn-primary" asp-action="TicketBought" asp-route-id="@item.Id">BUY TICKETS</button>
+                    }
+
+                </div>
+            }
+        </div>
+    </section>
+</form>
+

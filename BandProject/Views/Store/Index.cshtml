@@ -1,0 +1,114 @@
+﻿@using BandProject.Models;
+@model Purchase
+@{
+    List<CartItem> cart = ViewBag.Cart;
+    List<Product> prod = ViewBag.Product;
+    double total = ViewBag.Total;
+}
+
+<header class="main-header">
+    <nav class="main-nav nav">
+        <ul>
+            <li><a asp-controller="Tour" asp-action="Index">HOME</a></li>
+            <li><a asp-controller="Store" asp-action="Index">STORE</a></li>
+            <li><a asp-controller="About" asp-action="Index">ABOUT</a></li>
+        </ul>
+    </nav>
+    <h1 class="band-name band-name-large">Green Day</h1>
+</header>
+
+<form method="post" asp-controller="Store">
+    <section class="container content-section">
+        <h2 class="section-header">MUSIC</h2>
+        <div class="shop-items">
+            @foreach (var item in ViewBag.Product)
+            {
+                if (item.ProudctType == "MUSIC")
+                {
+                    <div class="shop-item">
+                        <span class="shop-item-title">@item.ProductName</span>
+                        <img class="shop-item-image" src="/@item.Image">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$@item.Price</span>
+                            <button class="btn btn-primary shop-item-button" type="submit" asp-action="AddToCart" asp-route-id="@item.Id">ADD TO CART</button>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">MERCH</h2>
+        <div class="shop-items">
+            @foreach (var item in ViewBag.Product)
+            {
+                if (item.ProudctType == "MERCH")
+                {
+                    <div class="shop-item">
+                        <span class="shop-item-title">@item.ProductName</span>
+                        <img class="shop-item-image" src="/@item.Image">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">@item.Price</span>
+                            <button class="btn btn-primary shop-item-button" type="submit" asp-action="AddToCart" asp-route-id="@item.Id">ADD TO CART</button>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+
+        <div class="cart-items">
+            @foreach (var item in ViewBag.Cart)
+            {
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="/@item.Image" width="100" height="100">
+                        <span class="cart-item-title">@item.ItemName</span>
+                    </div>
+                    <span class="cart-price cart-column">$@item.Price</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="@item.Quantity" readonly="readonly">
+                        <button class="btn btn-danger" type="submit" asp-action="RemoveFromCart" asp-route-id="@item.Id">REMOVE</button>
+                    </div>
+                </div>
+
+            }
+        </div>
+
+        @*  <form method="post" asp-controller="store">
+        <div class="fullname">
+        <input type="text" name="fullname" required id="fullname" placeholder="Please enter full name" pattern="^\w{2,}(\s+\w{2,})+$" title="The full name must contain at least two words, each with at least two characters.">
+        <input type="text" name="fullname" for="FullName" placeholder="Please enter full name">
+        </div>
+
+        <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">@total</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="submit" asp-action="Purchase">PURCHASE</button>
+        </form> *@
+
+
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">@Math.Round(total, 2)</span>
+            </div>
+
+            <div class="nameInput">
+                <input asp-for="FullName" class="form-control" placeholder="Please enter full name"/>
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-purchase" asp-action="Purchase">PURCHASE</button>
+
+    </section>
+</form>
